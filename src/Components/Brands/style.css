@@ -1,0 +1,16 @@
+.brands{
+    width: 211px;
+    height: 211px;
+    border-radius: 100%;
+    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.13);
+    background-color: #FFF;
+}
+
+.brands-button{
+    width: 211px;
+    height: 211px;
+    border-radius: 100%;
+    background-color: #FFF;
+    border: none;
+    cursor: pointer;
+}

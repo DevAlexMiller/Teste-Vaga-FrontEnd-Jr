@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+.modal{
+    background-color: white;
+    display: none;
+    position: fixed;
+    width: 769px;
+    height: 300px;
+    left: 250px;
+    top: 100px;
+    color: black;
+}
+
+#modal-produto{
+    width: 769px;
+    height: 300px;
+}
+
+.img-produto{
+    width: 247px;
+    height: 192px;
+    margin-top: 30px;
+}
+
+.nome-produto{
+    position: absolute;
+    width: 328px;
+    height: 17px;
+    margin-left: 390px;
+    margin-top: -170px;
+    color: rgba(4, 30, 80, 1);
+    font-family: 'Lato';
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 20px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.desc-produto{
+    position: absolute;
+    width: 328px;
+    height: 17px;
+    margin: auto;
+    margin-left: 390px;
+    margin-top: -70px;
+    color: rgba(4, 30, 80, 1);
+    font-family: 'Lato';
+    font-style: 'Regular';
+    font-size: 10px;
+    line-height: 15px;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.price-produto{
+    position: absolute;
+    width: 328px;
+    height: 17px;
+    margin: auto;
+    margin-left: 390px;
+    margin-top: -110px;
+    color: rgba(4, 30, 80, 1);
+    text-align: left;
+    font-family: 'Lato';
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 20px;
+    line-height: 100%;
+    font-weight: 900;
+}
+
+.detalhes-produto{
+    position: absolute;
+    width: 328px;
+    height: 17px;
+    margin: auto;
+    margin-left: 390px;
+    margin-top: -10px;
+    text-align: left;
+    
+}
+
+.detalhes-button{
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.close-button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 730px;
+}
+
+#close-button{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    color:black;
+    background-color: transparent;
+}
