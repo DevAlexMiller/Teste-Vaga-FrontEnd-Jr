@@ -7,9 +7,6 @@ const Modal = props => {
 
     return(
         <div  id="modal-produto" ref={modalRef} className={`${className} modal`}>
-            <div className="close-button">
-                <button id="close-button" >X</button>
-            </div>
             <div className="img-produto">
                 <img src={props.img} alt=""></img>
             </div>
