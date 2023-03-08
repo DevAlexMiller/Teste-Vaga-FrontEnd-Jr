@@ -11,7 +11,9 @@ export default function Products (props) {
   const toggleDropdown = () => {
     console.log("show");
     setDropdown("show");
-    //document.body.addEventListener("click", closeDropdown);
+    setTimeout(() => {
+      document.body.addEventListener("click", closeDropdown);
+    }, 1);
   }
 
   const closeDropdown = (event) => {
